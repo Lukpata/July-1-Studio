@@ -13,10 +13,10 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY','django-insecure-5ix-mpay3-%ji*j7cftwlq=xr)8*ttnhl%*$j7*xlbgq^%)hg!')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['*']
-
+# distinct-offbeat-peppy-dime
 
 # Application definition
 
