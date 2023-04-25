@@ -16,7 +16,7 @@ SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY','django-insecure-5ix-mpay3-%ji*j
 # DEBUG = True
 DEBUG = os.environ.get('DJANGO_DEBUG', '') != 'False'
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['https://web-production-0c9e.up.railway.app','https://www.july1studios.com','https://127.0.0.1:8000']
 # distinct-offbeat-peppy-dime
 
 # Application definition
